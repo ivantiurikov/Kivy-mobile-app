@@ -5,11 +5,11 @@ from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.textinput import TextInput
 from kivy.uix.popup import Popup
 from kivy.uix.screenmanager import Screen, ScreenManager
-from ruffierr import test
-from timer_ruffier import Seconds
+from ruffier import test
+from timer import Seconds
 from kivy.core.window import Window
 from Check_sits import Sits
-from Animation_vidget import Go_animation
+from Animation import Go_animation
 from instructions import *
 
 Window.clearcolor = (0.7, 0.9, 0.1, 1)
